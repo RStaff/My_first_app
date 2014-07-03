@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   resources :restaurants
 
-  get  'welcome/index'
+root to: 'welcome#index'
 
   #root "welcome#index"
 
